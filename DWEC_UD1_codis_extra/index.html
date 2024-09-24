@@ -1030,10 +1030,18 @@
 </span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="w">    </span><span class="p">.</span><span class="nx">filter</span><span class="p">(([</span><span class="nx">producte</span><span class="p">,</span><span class="w"> </span><span class="nx">preu</span><span class="p">])</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="nx">preu</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mf">75</span><span class="p">)</span>
 </span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="w">    </span><span class="p">.</span><span class="nx">map</span><span class="p">(([</span><span class="nx">producte</span><span class="p">,</span><span class="w"> </span><span class="nx">preu</span><span class="p">])</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">[</span><span class="nx">producte</span><span class="p">,</span><span class="w"> </span><span class="nx">preu</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">0.9</span><span class="p">]);</span>
 </span></code></pre></div></td></tr></table></div>
-<p>El <code>map</code> s'utilitza per:
-1. <strong>Iterar sobre la matriu filtrada</strong> (que conté els productes amb preu &gt; 75€).
-2. <strong>Transformar cada producte</strong> aplicant una rebaixa del 10% al seu preu: <code>[producte, preu * 0.9]</code>.
-3. <strong>Retornar un nou array</strong> on cada producte té el seu preu rebaixat.</p>
+<p>El <code>map</code> s'utilitza per:</p>
+<ul>
+<li>
+<p><strong>Iterar sobre la matriu filtrada</strong> (que conté els productes amb preu &gt; 75€).</p>
+</li>
+<li>
+<p><strong>Transformar cada producte</strong> aplicant una rebaixa del 10% al seu preu: <code>[producte, preu * 0.9]</code>.</p>
+</li>
+<li>
+<p><strong>Retornar un nou array</strong> on cada producte té el seu preu rebaixat.</p>
+</li>
+</ul>
 <p>En resum, el mètode <code>map</code> serveix per a <strong>transformar</strong> cada element d'un array segons les teves necessitats, creant-ne un de nou.</p>
 
 
