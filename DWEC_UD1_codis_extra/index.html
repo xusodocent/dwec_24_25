@@ -990,9 +990,15 @@
 </span></code></pre></div></td></tr></table></div>
 <h3 id="funcionament-del-map">Funcionament del <code>map</code>:</h3>
 <ul>
-<li><strong>Entrada</strong>: El mètode <code>map</code> pren una funció com a argument, la qual s'aplica a cada element de l'array original.</li>
-<li><strong>Transformació</strong>: Aquesta funció processa o modifica cada element de l'array i retorna un nou valor.</li>
-<li><strong>Resultat</strong>: Com a resultat, obtens un nou array amb els elements transformats, però l'array original es manté intacte (no es modifica).</li>
+<li>
+<p><strong>Entrada</strong>: El mètode <code>map</code> pren una funció com a argument, la qual s'aplica a cada element de l'array original.</p>
+</li>
+<li>
+<p><strong>Transformació</strong>: Aquesta funció processa o modifica cada element de l'array i retorna un nou valor.</p>
+</li>
+<li>
+<p><strong>Resultat</strong>: Com a resultat, obtens un nou array amb els elements transformats, però l'array original es manté intacte (no es modifica).</p>
+</li>
 </ul>
 <h3 id="estructura">Estructura:</h3>
 <div class="language-javascript highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">JavaScript</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span>
@@ -1004,9 +1010,15 @@
 </span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="p">});</span>
 </span></code></pre></div></td></tr></table></div>
 <ul>
-<li><strong><code>element</code></strong>: Cada element de l'array en el moment de la iteració.</li>
-<li><strong><code>index</code></strong> (opcional): L'índex de l'element actual en la iteració.</li>
-<li><strong><code>array</code></strong> (opcional): El mateix array original que s'està iterant.</li>
+<li>
+<p><strong><code>element</code></strong>: Cada element de l'array en el moment de la iteració.</p>
+</li>
+<li>
+<p><strong><code>index</code></strong> (opcional): L'índex de l'element actual en la iteració.</p>
+</li>
+<li>
+<p><strong><code>array</code></strong> (opcional): El mateix array original que s'està iterant.</p>
+</li>
 </ul>
 <h3 id="exemple-simple">Exemple simple:</h3>
 <p>Imagina't que tens un array de números i vols multiplicar cada número per 2.</p>
@@ -1018,10 +1030,18 @@
 </span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3"></a>
 </span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4"></a><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">multiplicats</span><span class="p">);</span><span class="w"> </span><span class="c1">// [2, 4, 6, 8]</span>
 </span></code></pre></div></td></tr></table></div>
-<p>Aquí:
-- L'array <code>numeros</code> és <code>[1, 2, 3, 4]</code>.
-- El <code>map</code> aplica la funció <code>(numero) =&gt; numero * 2</code> a cada element.
-- El resultat és un nou array: <code>[2, 4, 6, 8]</code>.</p>
+<p>Ací:</p>
+<ul>
+<li>
+<p>L'array <code>numeros</code> és <code>[1, 2, 3, 4]</code>.</p>
+</li>
+<li>
+<p>El <code>map</code> aplica la funció <code>(numero) =&gt; numero * 2</code> a cada element.</p>
+</li>
+<li>
+<p>El resultat és un nou array: <code>[2, 4, 6, 8]</code>.</p>
+</li>
+</ul>
 <h3 id="relacio-amb-lexemple-que-the-donat-abans">Relació amb l'exemple que t'he donat abans:</h3>
 <p>En el codi que et vaig donar:</p>
 <div class="language-javascript highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">JavaScript</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span>
